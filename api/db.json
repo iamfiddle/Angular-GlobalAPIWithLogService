@@ -31,76 +31,8 @@
       "id": 1
     },
     {
-      "message": "Level:  Dev Type:   Debug  - Message: This is just a message ",
+      "message": "Level:  Dev Type:   All  - Message: LogInfo function gets called ",
       "id": 2
-    },
-    {
-      "message": "Level:  Dev Type:   Debug  - Message: This is just a message ",
-      "id": 3
-    },
-    {
-      "message": "Level:  Dev Type:   Debug  - Message: This is just a message ",
-      "id": 4
-    },
-    {
-      "message": "Level:  Dev Type:   Debug  - Message: This is just a message ",
-      "id": 5
-    },
-    {
-      "message": "Level:  Prd Type:   Lethal  - Message: This is just a message ",
-      "id": 6
-    },
-    {
-      "message": "Level:  Dev Type:   Error  - Message: This is just a message ",
-      "id": 7
-    },
-    {
-      "message": "Level:  Dev Type:   Error  - Message: This is just a message ",
-      "id": 8
-    },
-    {
-      "message": "Level:  Dev Type:   Error  - Message: This is just a message ",
-      "id": 9
-    },
-    {
-      "message": "Level:  Dev Type:   Error  - Message: This is just a message ",
-      "id": 10
-    },
-    {
-      "message": "Level:  Dev Type:   Error  - Message: This is just a message ",
-      "id": 11
-    },
-    {
-      "message": "Level:  Dev Type:   Error  - Message: This is just a message ",
-      "id": 12
-    },
-    {
-      "message": "Level:  Dev Type:   TurnOff  - Message: This is just a message ",
-      "id": 13
-    },
-    {
-      "message": "Level:  Dev Type:   Lethal  - Message: This is just a message ",
-      "id": 14
-    },
-    {
-      "message": "Level:  Dev Type:   Lethal  - Message: This is just a message ",
-      "id": 15
-    },
-    {
-      "message": "Level:  Dev Type:   Error  - Message: This is just a message ",
-      "id": 16
-    },
-    {
-      "message": "Level:  Dev Type:   Info  - Message: This is just a message ",
-      "id": 17
-    },
-    {
-      "message": "Level:  Dev Type:   All  - Message: This is just a message ",
-      "id": 18
-    },
-    {
-      "message": "Level:  Dev Type:   All  - Message: This is just a message ",
-      "id": 19
     }
   ]
 }

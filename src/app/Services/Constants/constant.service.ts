@@ -13,6 +13,5 @@ export class ConstantService {
   }
 
   readonly apiEndPoint = "/api";
-  //readonly errorApiEndPoint = "/api/logs";
   readonly apiHeaders = new HttpHeaders().set('Content-Type', 'application/json').set('Accept', 'application/json');
 }

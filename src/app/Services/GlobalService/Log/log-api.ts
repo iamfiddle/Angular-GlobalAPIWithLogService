@@ -1,16 +1,12 @@
-import { LogType } from './log-constants';
-import { GlobalAPIService } from './../global.api.service';
 import { LogFactory } from './log-factory';
 import { LogMaster } from './global-logging.service';
-import { Observable } from 'rxjs';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { ConstantService } from '../../Constants/constant.service';
+import { LogType } from './log-constants';
+import { APIService } from '../api/global.api.service';
 
 export class LogApi extends LogFactory {
 
   messageBody: string;
-  //private constant: ConstantService;
-  //httpClient: HttpClient;
+
   constructor() {
     super();
     // Set location
@@ -18,18 +14,19 @@ export class LogApi extends LogFactory {
   }
 
   // Add log entry to back end data store using API
-  Log(entry: LogMaster, api: GlobalAPIService, type:LogType): Observable<object> {
+  Log(entry: LogMaster, api: APIService, type: LogType): boolean {
     this.messageBody = entry.BuildLogMessage(type);
     if (this.messageBody) {
-      return api.PostRequest(this.location, { message: this.messageBody });
-      
+      api.PostRequest$(this.location, { message: this.messageBody }).subscribe();
+      return true;
     }
     else
-      return Observable.create(null);
+      return false;
   }
 
   // Clear all log entries from Api
-  Dispose(id: number, api: GlobalAPIService): Observable<object> {
-    return api.DeleteRequest(this.location, id);
+  Dispose(id: number, api: APIService): boolean {
+    api.DeleteRequest$(this.location, id).subscribe();
+    return true;
   }
 }

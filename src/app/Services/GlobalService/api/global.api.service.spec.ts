@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { GlobalAPIService } from './global.api.service';
+import { APIService } from './global.api.service';
 
 describe('GlobalAPIService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: GlobalAPIService = TestBed.get(GlobalAPIService);
+    const service: APIService = TestBed.get(APIService);
     expect(service).toBeTruthy();
   });
 });
