@@ -1,0 +1,106 @@
+{
+  "Books": [
+    {
+      "id": 1,
+      "name": "Krishna's Key",
+      "Author": "Ashwin Sanghi",
+      "description": "The Krishna Key is a 2012 anthropological thriller by Indian author Ashwin Sanghi and is his third novel."
+    },
+    {
+      "id": 2,
+      "name": "The Immortals of Meluha",
+      "Author": "Amish Tripathi",
+      "description": "The Immortals of Meluha is the first novel of the Shiva trilogy series by Amish Tripathi. The story is set in the land of Meluha and starts with the arrival of the Shiva."
+    },
+    {
+      "id": 3,
+      "name": "The Great Gatsby",
+      "Author": "F. Scott Fitzgerald",
+      "description": "The Great Gatsby is a 1925 novel written by American author F. Scott Fitzgerald that follows a cast of characters living in the fictional towns of West Egg and East Egg on prosperous Long Island in the summer of 1922."
+    },
+    {
+      "id": 4,
+      "name": "Krishna's Key",
+      "Author": "Ashwin Sanghi",
+      "description": "Its a mythological book"
+    }
+  ],
+  "Logs": [
+    {
+      "message": "Type: Debug - Message: This is just a message",
+      "id": 1
+    },
+    {
+      "message": "Level:  Dev Type:   Debug  - Message: This is just a message ",
+      "id": 2
+    },
+    {
+      "message": "Level:  Dev Type:   Debug  - Message: This is just a message ",
+      "id": 3
+    },
+    {
+      "message": "Level:  Dev Type:   Debug  - Message: This is just a message ",
+      "id": 4
+    },
+    {
+      "message": "Level:  Dev Type:   Debug  - Message: This is just a message ",
+      "id": 5
+    },
+    {
+      "message": "Level:  Prd Type:   Lethal  - Message: This is just a message ",
+      "id": 6
+    },
+    {
+      "message": "Level:  Dev Type:   Error  - Message: This is just a message ",
+      "id": 7
+    },
+    {
+      "message": "Level:  Dev Type:   Error  - Message: This is just a message ",
+      "id": 8
+    },
+    {
+      "message": "Level:  Dev Type:   Error  - Message: This is just a message ",
+      "id": 9
+    },
+    {
+      "message": "Level:  Dev Type:   Error  - Message: This is just a message ",
+      "id": 10
+    },
+    {
+      "message": "Level:  Dev Type:   Error  - Message: This is just a message ",
+      "id": 11
+    },
+    {
+      "message": "Level:  Dev Type:   Error  - Message: This is just a message ",
+      "id": 12
+    },
+    {
+      "message": "Level:  Dev Type:   TurnOff  - Message: This is just a message ",
+      "id": 13
+    },
+    {
+      "message": "Level:  Dev Type:   Lethal  - Message: This is just a message ",
+      "id": 14
+    },
+    {
+      "message": "Level:  Dev Type:   Lethal  - Message: This is just a message ",
+      "id": 15
+    },
+    {
+      "message": "Level:  Dev Type:   Error  - Message: This is just a message ",
+      "id": 16
+    },
+    {
+      "message": "Level:  Dev Type:   Info  - Message: This is just a message ",
+      "id": 17
+    },
+    {
+      "message": "Level:  Dev Type:   All  - Message: This is just a message ",
+      "id": 18
+    },
+    {
+      "message": "Level:  Dev Type:   All  - Message: This is just a message ",
+      "id": 19
+    }
+  ]
+}
